@@ -2,7 +2,7 @@ import React from 'react';
 
 const VideoDetail = ({video}) => {
 
-  if(!video) {
+  if(!video) { //handling null props
     return <div>Loading...</div>;
   }
 
